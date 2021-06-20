@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="3547" started-at="2021-06-20T02:55:33 EDT" finished-at="2021-06-20T02:55:37 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3547" started-at="2021-06-20T02:55:33 EDT" finished-at="2021-06-20T02:55:37 EDT">
+      <class name="ShoppingTest.Cart">
+        <test-method status="PASS" signature="setupNew()[pri:0, instance:ShoppingTest.Cart@6f195bc3]" name="setupNew" is-config="true" duration-ms="2845" started-at="2021-06-20T02:55:33 EDT" finished-at="2021-06-20T02:55:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupNew -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:ShoppingTest.Cart@6f195bc3]" name="Login" duration-ms="307" started-at="2021-06-20T02:55:36 EDT" finished-at="2021-06-20T02:55:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:ShoppingTest.Cart@6f195bc3]" name="addToCart" duration-ms="57" started-at="2021-06-20T02:55:37 EDT" depends-on-methods="ShoppingTest.Cart.Login" finished-at="2021-06-20T02:55:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ShoppingTest.Cart@6f195bc3]" name="tearDown" is-config="true" duration-ms="298" started-at="2021-06-20T02:55:37 EDT" finished-at="2021-06-20T02:55:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ShoppingTest.Cart -->
+    </test> <!-- Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
